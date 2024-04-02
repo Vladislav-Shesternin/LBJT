@@ -1,5 +1,5 @@
-# Android APK
-## _The game is a demonstration of LiquidFun capabilities._
+# LBJT - LibGDX Box2D Joints Tutorials
+## _The game is a tutorial for learning **Box2D Joints** and a demonstration of their capabilities._
 
 **Liquidfun Playground** - contains the program code.
 
