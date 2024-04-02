@@ -1,0 +1,132 @@
+package com.education.lbjt.game.actors.scroll.tutorial
+
+import com.badlogic.gdx.graphics.g2d.Animation
+import com.badlogic.gdx.utils.Align
+import com.education.lbjt.R
+import com.education.lbjt.game.actors.scroll.VerticalGroup
+import com.education.lbjt.game.actors.scroll.tutorial.AAbstractTutorialScrollPanel.Static.Number
+import com.education.lbjt.game.actors.scroll.tutorial.AAbstractTutorialScrollPanel.Static.Space
+import com.education.lbjt.game.actors.scroll.tutorial.AAbstractTutorialScrollPanel.Static.LabelFont
+import com.education.lbjt.game.actors.scroll.tutorial.AAbstractTutorialScrollPanel.Static.TypingLabelFontFamily
+import com.education.lbjt.game.actors.scroll.tutorial.actors.AAbstractList
+import com.education.lbjt.game.manager.util.SpriteUtil
+import com.education.lbjt.game.screens.practicalScreen.Practical_JMouseScreen
+import com.education.lbjt.game.utils.GameColor
+import com.education.lbjt.game.utils.advanced.AdvancedScreen
+
+class AScrollPanel_JMouse(
+    _screen: AdvancedScreen,
+    private val spriteUtil: SpriteUtil.JointMouse,
+): AAbstractTutorialScrollPanel(_screen) {
+
+    override fun VerticalGroup.addActorsOnVerticalGroup() {
+        addSpace(Space._25)
+        addImageAnim(0.033f, spriteUtil.animVideo_1 , Animation.PlayMode.LOOP, 299f)
+        addSpace(Space._80)
+        addLabel(R.string.jmouse_title_1, LabelFont.Inter_ExtraBold_50, GameColor.textRed)
+        addSpace(Space._25)
+        addTypingLabel(R.string.jmouse_text_1, TypingLabelFontFamily.Inter_MediumBold_30)
+        addSpace(Space._25)
+        addTypingLabel(R.string.jmouse_text_2, TypingLabelFontFamily.Inter_MediumBold_30)
+        addSpace(Space._25)
+        addLabel(R.string.jmouse_sub_title_1, LabelFont.Inter_Regular_35, GameColor.textRed)
+        addSpace(Space._25)
+        addLabel(R.string.j_sub_title_mandatory, LabelFont.Inter_Regular_35, GameColor.textRed, Align.right)
+        addSpace(Space._25)
+        addList_TypingLabel(R.array.jmouse_arr_1, symbol = AAbstractList.Static.Symbol.Bullet)
+        addSpace(Space._25)
+        addLabel(R.string.j_sub_title_optional, LabelFont.Inter_Regular_35, GameColor.textRed, Align.right)
+        addSpace(Space._25)
+        addList_TypingLabel(R.array.jmouse_arr_2, symbol = AAbstractList.Static.Symbol.Bullet)
+        addSpace(Space._25)
+        addTypingLabel(R.string.jmouse_note_1, TypingLabelFontFamily.Inter_MediumBold_30)
+        addSpace(Space._25)
+        addList_TypingLabel(R.array.jmouse_arr_3, symbol = AAbstractList.Static.Symbol.Bullet)
+        addSpace(Space._25)
+        addTypingLabel(R.string.jmouse_text_3, TypingLabelFontFamily.Inter_MediumBold_30)
+        addSpace(Space._25)
+        addLongQuote(R.string.j_longquote_frequency)
+        addSpace(Space._25)
+        addList_TypingLabel(R.array.j_arr_damping, symbol = AAbstractList.Static.Symbol.Bullet)
+        addSpace(Space._25)
+        addLongQuote(R.string.jmouse_longquote_2)
+        addSpace(Space._80)
+        addLabel(R.string.jmouse_title_2, LabelFont.Inter_ExtraBold_50, GameColor.textRed)
+        addSpace(Space._25)
+        addTypingLabel(R.string.jmouse_text_4, TypingLabelFontFamily.Inter_MediumBold_30)
+        addSpace(Space._25)
+        addImageAnim(0.033f, spriteUtil.animVideo_1 , Animation.PlayMode.LOOP, 299f)
+        addSpace(Space._80)
+        addImage(spriteUtil.I1, 333f)
+        addSpace(Space._80)
+        addNumberTypingLabel(Number._1, R.string.jmouse_text_5, TypingLabelFontFamily.Inter_MediumBold_30)
+        addSpace(Space._25)
+        addCodePanel(R.string.jmouse_codepanel_1, Static.CodePanelHeight._110)
+        addSpace(Space._25)
+        addNumberTypingLabel(Number._2, R.string.jmouse_text_6, TypingLabelFontFamily.Inter_MediumBold_30)
+        addSpace(Space._25)
+        addCodePanel(R.string.jmouse_codepanel_2, Static.CodePanelHeight._210)
+        addSpace(Space._25)
+        addNumberTypingLabel(Number._3, R.string.jmouse_text_7, TypingLabelFontFamily.Inter_MediumBold_30)
+        addSpace(Space._25)
+        addList_TypingLabel(R.array.jmouse_arr_5, symbol = AAbstractList.Static.Symbol.Number)
+        addSpace(Space._25)
+        addCodePanel(R.string.jmouse_codepanel_3, Static.CodePanelHeight._390)
+        addSpace(Space._25)
+        addTypingLabel(R.string.jmouse_note_2, TypingLabelFontFamily.Inter_MediumBold_30)
+        addSpace(Space._25)
+        addList_TypingLabel(R.array.jmouse_arr_6, symbol = AAbstractList.Static.Symbol.Bullet)
+        addSpace(Space._25)
+        addNumberTypingLabel(Number._4, R.string.jmouse_text_8, TypingLabelFontFamily.Inter_MediumBold_30)
+        addSpace(Space._25)
+        addList_TypingLabel(R.array.jmouse_arr_7, symbol = AAbstractList.Static.Symbol.Number)
+        addSpace(Space._25)
+        addCodePanel(R.string.jmouse_codepanel_4, Static.CodePanelHeight._400)
+        addSpace(Space._25)
+        addTypingLabel(R.string.jmouse_note_3, TypingLabelFontFamily.Inter_MediumBold_30)
+        addSpace(Space._25)
+        addNumberTypingLabel(Number._5, R.string.jmouse_text_9, TypingLabelFontFamily.Inter_MediumBold_30)
+        addSpace(Space._25)
+        addCodePanel(R.string.jmouse_codepanel_5, Static.CodePanelHeight._140)
+        addSpace(Space._25)
+        addNumberTypingLabel(Number._6, R.string.jmouse_text_10, TypingLabelFontFamily.Inter_MediumBold_30)
+        addSpace(Space._25)
+        addCodePanel(R.string.jmouse_codepanel_6, Static.CodePanelHeight._140)
+        addSpace(Space._25)
+        addTypingLabel(R.string.jmouse_note_4, TypingLabelFontFamily.Inter_MediumBold_30)
+        addSpace(Space._25)
+        addLabel(R.string.jmouse_sub_title_4, LabelFont.Inter_Regular_35, GameColor.textRed)
+        addSpace(Space._25)
+        addCodePanel(R.string.jmouse_codepanel_7, Static.CodePanelHeight._400)
+        addSpace(Space._25)
+        addLongQuote(R.string.jmouse_longquote_3)
+        addSpace(Space._80)
+        addLabel(R.string.jmouse_title_3, LabelFont.Inter_ExtraBold_50, GameColor.textRed)
+        addSpace(Space._25)
+        addTypingLabel(R.string.jmouse_note_5, TypingLabelFontFamily.Inter_MediumBold_30)
+        addSpace(Space._25)
+        addList_TypingLabel(R.array.jmouse_arr_8, symbol = AAbstractList.Static.Symbol.Number)
+        addSpace(Space._25)
+        addCodePanel(R.string.jmouse_codepanel_8, Static.CodePanelHeight._400)
+        addSpace(Space._25)
+        addImageAnim(0.033f, spriteUtil.animVideo_2 , Animation.PlayMode.LOOP, 299f)
+        addSpace(Space._80)
+        addNumberTypingLabel(Number._2, R.string.jmouse_text_11, TypingLabelFontFamily.Inter_MediumBold_30)
+        addSpace(Space._25)
+        addCodePanel(R.string.jmouse_codepanel_9, Static.CodePanelHeight._300)
+        addSpace(Space._25)
+        addImageAnim(0.033f, spriteUtil.animVideo_3 , Animation.PlayMode.LOOP, 299f)
+        addSpace(Space._80)
+        addLongQuote(R.string.jmouse_longquote_4)
+        addSpace(Space._80)
+        addImageAnim(0.060f, spriteUtil.mem , Animation.PlayMode.LOOP, 490f)
+        addSpace(Space._80)
+        addTypingLabel(R.string.main_source_info, LabelFont.Inter_Regular_35)
+        addSpace(Space._25)
+        addTypingLabel(R.string.PS_Vel_daN, LabelFont.Inter_Black_30)
+        addSpace(Space._80)
+        addBtnPanel(Practical_JMouseScreen::class.java.name)
+        addSpace(Space._80)
+    }
+
+}

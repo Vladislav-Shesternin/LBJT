@@ -1,0 +1,131 @@
+video_3_6.png
+size: 968, 902
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+video (469)
+  rotate: false
+  xy: 2, 2
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (470)
+  rotate: false
+  xy: 324, 2
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (471)
+  rotate: false
+  xy: 646, 2
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (472)
+  rotate: false
+  xy: 2, 152
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (473)
+  rotate: false
+  xy: 324, 152
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (474)
+  rotate: false
+  xy: 646, 152
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (475)
+  rotate: false
+  xy: 2, 302
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (476)
+  rotate: false
+  xy: 324, 302
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (477)
+  rotate: false
+  xy: 646, 302
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (478)
+  rotate: false
+  xy: 2, 452
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (479)
+  rotate: false
+  xy: 324, 452
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (480)
+  rotate: false
+  xy: 646, 452
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (481)
+  rotate: false
+  xy: 2, 602
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (482)
+  rotate: false
+  xy: 324, 602
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (483)
+  rotate: false
+  xy: 646, 602
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (484)
+  rotate: false
+  xy: 2, 752
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (485)
+  rotate: false
+  xy: 324, 752
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (486)
+  rotate: false
+  xy: 646, 752
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1

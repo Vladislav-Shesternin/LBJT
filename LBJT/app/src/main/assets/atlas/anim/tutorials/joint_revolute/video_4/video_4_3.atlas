@@ -1,0 +1,12 @@
+video_4_3.png
+size: 324, 152
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+video (235)
+  rotate: false
+  xy: 2, 2
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "792289487158",
+    "firebase_url": "https://lbjt-a7722-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "lbjt-a7722",
+    "storage_bucket": "lbjt-a7722.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792289487158:android:fbcca1247af8105a87eb97",
+        "android_client_info": {
+          "package_name": "com.education.lbjt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792289487158-0n6v4usgk0vpasd6fk23d8los4jm8qas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ4hZ2YCsrGJTJzQatHciALVbF2PMfO7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792289487158-0n6v4usgk0vpasd6fk23d8los4jm8qas.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

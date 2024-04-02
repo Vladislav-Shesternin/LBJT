@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/LBJT"
+        android:hardwareAccelerated="true"
+        tools:ignore="DataExtractionRules">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+<!--        &lt;!&ndash;AdMob&ndash;&gt;-->
+<!--        &lt;!&ndash;Test ID&ndash;&gt;-->
+<!--        &lt;!&ndash;ca-app-pub-3940256099942544~3347511713&ndash;&gt;-->
+<!--        &lt;!&ndash;Original&ndash;&gt;-->
+<!--        &lt;!&ndash;ca-app-pub-6757786625316217~5808553777&ndash;&gt;-->
+<!--        <meta-data-->
+<!--            android:name="com.google.android.gms.ads.APPLICATION_ID"-->
+<!--            android:value="ca-app-pub-3940256099942544~3347511713"/>-->
+<!--        <meta-data-->
+<!--            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"-->
+<!--            android:value="true"/>-->
+<!--        <meta-data-->
+<!--            android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"-->
+<!--            android:value="true"/>-->
+
+        <!--Emoji2 remove-->
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            android:exported="false"
+            tools:node="merge">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                tools:node="remove" />
+        </provider>
+
+    </application>
+
+</manifest>

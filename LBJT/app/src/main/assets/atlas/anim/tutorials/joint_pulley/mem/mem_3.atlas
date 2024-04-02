@@ -1,0 +1,117 @@
+mem_3.png
+size: 1930, 1450
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mem (41)
+  rotate: false
+  xy: 2, 2
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (42)
+  rotate: false
+  xy: 484, 2
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (43)
+  rotate: false
+  xy: 966, 2
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (44)
+  rotate: false
+  xy: 1448, 2
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (45)
+  rotate: false
+  xy: 2, 364
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (46)
+  rotate: false
+  xy: 484, 364
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (47)
+  rotate: false
+  xy: 966, 364
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (48)
+  rotate: false
+  xy: 1448, 364
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (49)
+  rotate: false
+  xy: 2, 726
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (50)
+  rotate: false
+  xy: 484, 726
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (51)
+  rotate: false
+  xy: 966, 726
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (52)
+  rotate: false
+  xy: 1448, 726
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (53)
+  rotate: false
+  xy: 2, 1088
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (54)
+  rotate: false
+  xy: 484, 1088
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (55)
+  rotate: false
+  xy: 966, 1088
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (56)
+  rotate: false
+  xy: 1448, 1088
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1

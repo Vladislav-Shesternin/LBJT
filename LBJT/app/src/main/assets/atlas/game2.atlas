@@ -1,0 +1,19 @@
+game2.png
+size: 647, 1225
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+practical_degrees
+  rotate: false
+  xy: 2, 2
+  size: 643, 598
+  orig: 643, 598
+  offset: 0, 0
+  index: -1
+practical_lines
+  rotate: false
+  xy: 2, 602
+  size: 621, 621
+  orig: 621, 621
+  offset: 0, 0
+  index: -1

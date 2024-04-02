@@ -1,0 +1,446 @@
+obama.png
+size: 2034, 1418
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anim_obama (1)
+  rotate: false
+  xy: 2, 2
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (2)
+  rotate: false
+  xy: 256, 2
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (3)
+  rotate: false
+  xy: 510, 2
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (4)
+  rotate: false
+  xy: 764, 2
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (5)
+  rotate: false
+  xy: 1018, 2
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (6)
+  rotate: false
+  xy: 1272, 2
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (7)
+  rotate: false
+  xy: 1526, 2
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (8)
+  rotate: false
+  xy: 1780, 2
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (9)
+  rotate: false
+  xy: 2, 179
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (10)
+  rotate: false
+  xy: 256, 179
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (11)
+  rotate: false
+  xy: 510, 179
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (12)
+  rotate: false
+  xy: 764, 179
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (13)
+  rotate: false
+  xy: 1018, 179
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (14)
+  rotate: false
+  xy: 1272, 179
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (15)
+  rotate: false
+  xy: 1526, 179
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (16)
+  rotate: false
+  xy: 1780, 179
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (17)
+  rotate: false
+  xy: 2, 356
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (18)
+  rotate: false
+  xy: 256, 356
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (19)
+  rotate: false
+  xy: 510, 356
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (20)
+  rotate: false
+  xy: 764, 356
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (21)
+  rotate: false
+  xy: 1018, 356
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (22)
+  rotate: false
+  xy: 1272, 356
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (23)
+  rotate: false
+  xy: 1526, 356
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (24)
+  rotate: false
+  xy: 1780, 356
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (25)
+  rotate: false
+  xy: 2, 533
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (26)
+  rotate: false
+  xy: 256, 533
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (27)
+  rotate: false
+  xy: 510, 533
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (28)
+  rotate: false
+  xy: 764, 533
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (29)
+  rotate: false
+  xy: 1018, 533
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (30)
+  rotate: false
+  xy: 1272, 533
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (31)
+  rotate: false
+  xy: 1526, 533
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (32)
+  rotate: false
+  xy: 1780, 533
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (33)
+  rotate: false
+  xy: 2, 710
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (34)
+  rotate: false
+  xy: 256, 710
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (35)
+  rotate: false
+  xy: 510, 710
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (36)
+  rotate: false
+  xy: 764, 710
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (37)
+  rotate: false
+  xy: 1018, 710
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (38)
+  rotate: false
+  xy: 1272, 710
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (39)
+  rotate: false
+  xy: 1526, 710
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (40)
+  rotate: false
+  xy: 1780, 710
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (41)
+  rotate: false
+  xy: 2, 887
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (42)
+  rotate: false
+  xy: 256, 887
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (43)
+  rotate: false
+  xy: 510, 887
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (44)
+  rotate: false
+  xy: 764, 887
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (45)
+  rotate: false
+  xy: 1018, 887
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (46)
+  rotate: false
+  xy: 1272, 887
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (47)
+  rotate: false
+  xy: 1526, 887
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (48)
+  rotate: false
+  xy: 1780, 887
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (49)
+  rotate: false
+  xy: 2, 1064
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (50)
+  rotate: false
+  xy: 256, 1064
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (51)
+  rotate: false
+  xy: 510, 1064
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (52)
+  rotate: false
+  xy: 764, 1064
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (53)
+  rotate: false
+  xy: 1018, 1064
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (54)
+  rotate: false
+  xy: 1272, 1064
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (55)
+  rotate: false
+  xy: 1526, 1064
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (56)
+  rotate: false
+  xy: 1780, 1064
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (57)
+  rotate: false
+  xy: 2, 1241
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (58)
+  rotate: false
+  xy: 256, 1241
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (59)
+  rotate: false
+  xy: 510, 1241
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (60)
+  rotate: false
+  xy: 764, 1241
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (61)
+  rotate: false
+  xy: 1018, 1241
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (62)
+  rotate: false
+  xy: 1272, 1241
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1
+anim_obama (63)
+  rotate: false
+  xy: 1526, 1241
+  size: 252, 175
+  orig: 252, 175
+  offset: 0, 0
+  index: -1

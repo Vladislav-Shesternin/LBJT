@@ -1,0 +1,145 @@
+mem_1.png
+size: 1930, 1812
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mem (1)
+  rotate: false
+  xy: 2, 2
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (2)
+  rotate: false
+  xy: 484, 2
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (3)
+  rotate: false
+  xy: 966, 2
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (4)
+  rotate: false
+  xy: 1448, 2
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (5)
+  rotate: false
+  xy: 2, 364
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (6)
+  rotate: false
+  xy: 484, 364
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (7)
+  rotate: false
+  xy: 966, 364
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (8)
+  rotate: false
+  xy: 1448, 364
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (9)
+  rotate: false
+  xy: 2, 726
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (10)
+  rotate: false
+  xy: 484, 726
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (11)
+  rotate: false
+  xy: 966, 726
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (12)
+  rotate: false
+  xy: 1448, 726
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (13)
+  rotate: false
+  xy: 2, 1088
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (14)
+  rotate: false
+  xy: 484, 1088
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (15)
+  rotate: false
+  xy: 966, 1088
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (16)
+  rotate: false
+  xy: 1448, 1088
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (17)
+  rotate: false
+  xy: 2, 1450
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (18)
+  rotate: false
+  xy: 484, 1450
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (19)
+  rotate: false
+  xy: 966, 1450
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1
+mem (20)
+  rotate: false
+  xy: 1448, 1450
+  size: 480, 360
+  orig: 480, 360
+  offset: 0, 0
+  index: -1

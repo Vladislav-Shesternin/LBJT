@@ -1,0 +1,7 @@
+<resources>
+    <style name="LBJT" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="android:navigationBarColor">@color/background</item>
+    </style>
+</resources>

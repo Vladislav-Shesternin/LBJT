@@ -1,0 +1,54 @@
+video_1_2.png
+size: 968, 452
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+video (157)
+  rotate: false
+  xy: 2, 2
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (158)
+  rotate: false
+  xy: 324, 2
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (159)
+  rotate: false
+  xy: 646, 2
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (160)
+  rotate: false
+  xy: 2, 152
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (161)
+  rotate: false
+  xy: 324, 152
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (162)
+  rotate: false
+  xy: 646, 152
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video (163)
+  rotate: false
+  xy: 2, 302
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,201 @@
+mem_1.png
+size: 1920, 650
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mem (1)
+  rotate: false
+  xy: 2, 2
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (2)
+  rotate: false
+  xy: 276, 2
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (3)
+  rotate: false
+  xy: 550, 2
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (4)
+  rotate: false
+  xy: 824, 2
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (5)
+  rotate: false
+  xy: 1098, 2
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (6)
+  rotate: false
+  xy: 1372, 2
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (7)
+  rotate: false
+  xy: 1646, 2
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (8)
+  rotate: false
+  xy: 2, 164
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (9)
+  rotate: false
+  xy: 276, 164
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (10)
+  rotate: false
+  xy: 550, 164
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (11)
+  rotate: false
+  xy: 824, 164
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (12)
+  rotate: false
+  xy: 1098, 164
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (13)
+  rotate: false
+  xy: 1372, 164
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (14)
+  rotate: false
+  xy: 1646, 164
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (15)
+  rotate: false
+  xy: 2, 326
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (16)
+  rotate: false
+  xy: 276, 326
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (17)
+  rotate: false
+  xy: 550, 326
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (18)
+  rotate: false
+  xy: 824, 326
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (19)
+  rotate: false
+  xy: 1098, 326
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (20)
+  rotate: false
+  xy: 1372, 326
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (21)
+  rotate: false
+  xy: 1646, 326
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (22)
+  rotate: false
+  xy: 2, 488
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (23)
+  rotate: false
+  xy: 276, 488
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (24)
+  rotate: false
+  xy: 550, 488
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (25)
+  rotate: false
+  xy: 824, 488
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (26)
+  rotate: false
+  xy: 1098, 488
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (27)
+  rotate: false
+  xy: 1372, 488
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1
+mem (28)
+  rotate: false
+  xy: 1646, 488
+  size: 272, 160
+  orig: 272, 160
+  offset: 0, 0
+  index: -1

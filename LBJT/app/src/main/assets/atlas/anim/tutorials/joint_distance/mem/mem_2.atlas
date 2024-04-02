@@ -1,0 +1,208 @@
+mem_2.png
+size: 930, 1394
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mem (84)
+  rotate: false
+  xy: 2, 2
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (85)
+  rotate: false
+  xy: 234, 2
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (86)
+  rotate: false
+  xy: 466, 2
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (87)
+  rotate: false
+  xy: 698, 2
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (88)
+  rotate: false
+  xy: 2, 176
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (89)
+  rotate: false
+  xy: 234, 176
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (90)
+  rotate: false
+  xy: 466, 176
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (91)
+  rotate: false
+  xy: 698, 176
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (92)
+  rotate: false
+  xy: 2, 350
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (93)
+  rotate: false
+  xy: 234, 350
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (94)
+  rotate: false
+  xy: 466, 350
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (95)
+  rotate: false
+  xy: 698, 350
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (96)
+  rotate: false
+  xy: 2, 524
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (97)
+  rotate: false
+  xy: 234, 524
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (98)
+  rotate: false
+  xy: 466, 524
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (99)
+  rotate: false
+  xy: 698, 524
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (100)
+  rotate: false
+  xy: 2, 698
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (101)
+  rotate: false
+  xy: 234, 698
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (102)
+  rotate: false
+  xy: 466, 698
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (103)
+  rotate: false
+  xy: 698, 698
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (104)
+  rotate: false
+  xy: 2, 872
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (105)
+  rotate: false
+  xy: 234, 872
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (106)
+  rotate: false
+  xy: 466, 872
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (107)
+  rotate: false
+  xy: 698, 872
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (108)
+  rotate: false
+  xy: 2, 1046
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (109)
+  rotate: false
+  xy: 234, 1046
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (110)
+  rotate: false
+  xy: 466, 1046
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (111)
+  rotate: false
+  xy: 698, 1046
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
+mem (112)
+  rotate: false
+  xy: 2, 1220
+  size: 230, 172
+  orig: 230, 172
+  offset: 0, 0
+  index: -1
