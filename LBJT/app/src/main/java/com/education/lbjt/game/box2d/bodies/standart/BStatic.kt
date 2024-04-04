@@ -14,4 +14,7 @@ class BStatic(override val screenBox2d: AdvancedBox2dScreen): AbstractBody() {
     }
     override val fixtureDef = FixtureDef()
     override var actor: AdvancedGroup? = AImage(screenBox2d)
+
+    fun getActor() = actor as? AImage
+
 }

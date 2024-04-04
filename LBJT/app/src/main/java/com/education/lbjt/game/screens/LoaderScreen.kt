@@ -6,6 +6,7 @@ import com.education.lbjt.game.LibGDXGame
 import com.education.lbjt.game.manager.MusicManager
 import com.education.lbjt.game.manager.SoundManager
 import com.education.lbjt.game.manager.SpriteManager
+import com.education.lbjt.game.screens.practicalScreen.Practical_JGearScreen
 import com.education.lbjt.game.screens.practicalScreen.Practical_JPulleyScreen
 import com.education.lbjt.game.screens.practicalScreen.Practical_JRopeScreen
 import com.education.lbjt.game.screens.tutorialsScreen.JGearScreen
@@ -135,7 +136,7 @@ class LoaderScreen(override val game: LibGDXGame) : AdvancedScreen() {
 
             stageUI.root.animHide(TIME_ANIM_SCREEN_ALPHA) {
                 game.activity.lottie.hideLoader()
-                game.navigationManager.navigate(/*JGearScreen::class.java.name)*/  MenuScreen::class.java.name)
+                game.navigationManager.navigate(Practical_JGearScreen::class.java.name)  //  MenuScreen::class.java.name)
             }
         }
     }

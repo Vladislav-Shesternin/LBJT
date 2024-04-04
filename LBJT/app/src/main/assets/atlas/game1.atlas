@@ -1,11 +1,11 @@
 game1.png
-size: 1971, 1074
+size: 2039, 1090
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ads
   rotate: false
-  xy: 1746, 125
+  xy: 1573, 127
   size: 138, 93
   orig: 138, 93
   offset: 0, 0
@@ -28,35 +28,35 @@ borders_blue
   index: -1
 c_dynamic
   rotate: false
-  xy: 470, 524
+  xy: 470, 540
   size: 170, 171
   orig: 170, 171
   offset: 0, 0
   index: -1
 c_kinematic
   rotate: false
-  xy: 642, 524
+  xy: 642, 540
   size: 170, 171
   orig: 170, 171
   offset: 0, 0
   index: -1
 c_static
   rotate: false
-  xy: 814, 524
+  xy: 814, 540
   size: 170, 171
   orig: 170, 171
   offset: 0, 0
   index: -1
 circle_blue
   rotate: false
-  xy: 1662, 220
+  xy: 1462, 223
   size: 113, 113
   orig: 113, 113
   offset: 0, 0
   index: -1
 cursor
   rotate: false
-  xy: 483, 51
+  xy: 263, 52
   size: 7, 54
   split: 3, 2, 7, 6
   pad: -1, -1, -1, -1
@@ -65,154 +65,154 @@ cursor
   index: -1
 debug_box_check
   rotate: false
-  xy: 2, 220
+  xy: 1792, 127
   size: 98, 94
   orig: 98, 94
   offset: 0, 0
   index: -1
 debug_box_def
   rotate: false
-  xy: 102, 220
+  xy: 1892, 127
   size: 98, 94
   orig: 98, 94
   offset: 0, 0
   index: -1
 description_panel
   rotate: false
-  xy: 1316, 524
+  xy: 1316, 540
   size: 300, 245
   orig: 300, 245
   offset: 0, 0
   index: -1
 el_dan
   rotate: false
-  xy: 718, 125
+  xy: 545, 127
   size: 254, 91
   orig: 254, 91
   offset: 0, 0
   index: -1
 frame_icon
   rotate: false
-  xy: 282, 353
+  xy: 2, 369
   size: 154, 154
   orig: 154, 154
   offset: 0, 0
   index: -1
 frame_icon_empty
   rotate: false
-  xy: 438, 353
+  xy: 158, 369
   size: 154, 154
   orig: 154, 154
   offset: 0, 0
   index: -1
 frame_language
   rotate: false
-  xy: 729, 220
+  xy: 529, 223
   size: 314, 102
   orig: 314, 102
   offset: 0, 0
   index: -1
 h_dynamic
   rotate: false
-  xy: 1057, 51
+  xy: 837, 52
   size: 170, 71
   orig: 170, 71
   offset: 0, 0
   index: -1
 h_kinematic
   rotate: false
-  xy: 1229, 51
+  xy: 1009, 52
   size: 170, 71
   orig: 170, 71
   offset: 0, 0
   index: -1
 h_static
   rotate: false
-  xy: 1401, 51
+  xy: 1181, 52
   size: 170, 71
   orig: 170, 71
   offset: 0, 0
   index: -1
 hand_hello
   rotate: false
-  xy: 1167, 776
+  xy: 1167, 792
   size: 206, 289
   orig: 206, 289
   offset: 0, 0
   index: -1
 hand_hint
   rotate: false
-  xy: 919, 776
+  xy: 919, 792
   size: 246, 284
   orig: 246, 284
   offset: 0, 0
   index: -1
 hand_v
   rotate: false
-  xy: 1202, 524
+  xy: 1202, 540
   size: 112, 203
   orig: 112, 203
   offset: 0, 0
   index: -1
 icon_def
   rotate: false
-  xy: 1886, 125
+  xy: 1713, 127
   size: 77, 93
   orig: 77, 93
   offset: 0, 0
   index: -1
 language_en
   rotate: false
-  xy: 507, 776
+  xy: 507, 792
   size: 204, 267
   orig: 204, 267
   offset: 0, 0
   index: -1
 language_uk
   rotate: false
-  xy: 713, 776
+  xy: 713, 792
   size: 204, 267
   orig: 204, 267
   offset: 0, 0
   index: -1
 lift_gear
   rotate: false
-  xy: 1652, 125
+  xy: 1479, 127
   size: 92, 92
   orig: 92, 92
   offset: 0, 0
   index: -1
 lift_platform
   rotate: false
-  xy: 202, 220
+  xy: 2, 223
   size: 525, 97
   orig: 525, 97
   offset: 0, 0
   index: -1
 loader
   rotate: false
-  xy: 1436, 220
+  xy: 1236, 223
   size: 111, 110
   orig: 111, 110
   offset: 0, 0
   index: -1
 monetization_btn_def
   rotate: false
-  xy: 1375, 776
+  xy: 1375, 792
   size: 296, 296
   orig: 296, 296
   offset: 0, 0
   index: -1
 monetization_btn_press
   rotate: false
-  xy: 1673, 776
+  xy: 1673, 792
   size: 296, 296
   orig: 296, 296
   offset: 0, 0
   index: -1
 no_wifi
   rotate: false
-  xy: 1549, 220
+  xy: 1349, 223
   size: 111, 110
   orig: 111, 110
   offset: 0, 0
@@ -282,7 +282,7 @@ number 9
   index: -1
 panel
   rotate: false
-  xy: 913, 51
+  xy: 693, 52
   size: 70, 70
   split: 23, 23, 23, 23
   pad: -1, -1, -1, -1
@@ -291,7 +291,7 @@ panel
   index: -1
 panel_code
   rotate: false
-  xy: 985, 51
+  xy: 765, 52
   size: 70, 70
   split: 15, 15, 15, 15
   pad: -1, -1, -1, -1
@@ -300,7 +300,7 @@ panel_code
   index: -1
 panel_with_light_red
   rotate: false
-  xy: 1618, 524
+  xy: 1618, 540
   size: 250, 250
   split: 55, 53, 53, 52
   pad: 0, 0, 0, 0
@@ -309,7 +309,7 @@ panel_with_light_red
   index: -1
 panel_with_light_white
   rotate: false
-  xy: 2, 776
+  xy: 2, 792
   size: 250, 250
   split: 52, 54, 51, 53
   pad: -1, -1, -1, -1
@@ -318,21 +318,21 @@ panel_with_light_white
   index: -1
 practical_btn
   rotate: false
-  xy: 136, 353
+  xy: 1845, 223
   size: 144, 144
   orig: 144, 144
   offset: 0, 0
   index: -1
 practical_done
   rotate: false
-  xy: 534, 125
+  xy: 361, 127
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 practical_false
   rotate: false
-  xy: 2, 51
+  xy: 1819, 2
   size: 218, 48
   orig: 218, 48
   offset: 0, 0
@@ -355,7 +355,7 @@ practical_progress
   index: -1
 practical_progress_arm
   rotate: false
-  xy: 442, 51
+  xy: 222, 52
   size: 39, 49
   orig: 39, 49
   offset: 0, 0
@@ -376,56 +376,70 @@ practical_progress_point
   index: -1
 practical_settings
   rotate: false
-  xy: 626, 125
+  xy: 453, 127
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 practical_true
   rotate: false
-  xy: 222, 51
+  xy: 2, 52
   size: 218, 48
   orig: 218, 48
   offset: 0, 0
   index: -1
 ps
   rotate: false
-  xy: 500, 51
+  xy: 280, 52
   size: 411, 64
   orig: 411, 64
   offset: 0, 0
   index: -1
+ratio_h
+  rotate: false
+  xy: 1918, 52
+  size: 81, 73
+  orig: 81, 73
+  offset: 0, 0
+  index: -1
+ratio_v
+  rotate: false
+  xy: 2, 127
+  size: 98, 74
+  orig: 98, 74
+  offset: 0, 0
+  index: -1
 regular_btn_def
   rotate: false
-  xy: 1018, 353
+  xy: 738, 369
   size: 466, 169
   orig: 466, 169
   offset: 0, 0
   index: -1
 regular_btn_disable
   rotate: false
-  xy: 1486, 353
+  xy: 1206, 369
   size: 466, 169
   orig: 466, 169
   offset: 0, 0
   index: -1
 regular_btn_press
   rotate: false
-  xy: 2, 524
+  xy: 2, 540
   size: 466, 169
   orig: 466, 169
   offset: 0, 0
   index: -1
 reset_def
   rotate: false
-  xy: 1573, 51
+  xy: 1353, 52
   size: 144, 72
   orig: 144, 72
   offset: 0, 0
   index: -1
 reset_press
   rotate: false
-  xy: 1719, 51
+  xy: 1499, 52
   size: 144, 72
   orig: 144, 72
   offset: 0, 0
@@ -446,7 +460,7 @@ rod_quiet
   index: -1
 select
   rotate: false
-  xy: 492, 51
+  xy: 272, 52
   size: 6, 54
   split: 2, 2, 6, 8
   pad: -1, -1, -1, -1
@@ -455,35 +469,35 @@ select
   index: -1
 telegram
   rotate: false
-  xy: 275, 125
+  xy: 102, 127
   size: 257, 74
   orig: 257, 74
   offset: 0, 0
   index: -1
 thanks_frame
   rotate: false
-  xy: 2, 125
+  xy: 1645, 52
   size: 271, 72
   orig: 271, 72
   offset: 0, 0
   index: -1
 update_btn_def
   rotate: false
-  xy: 974, 125
+  xy: 801, 127
   size: 337, 91
   orig: 337, 91
   offset: 0, 0
   index: -1
 update_btn_press
   rotate: false
-  xy: 1313, 125
+  xy: 1140, 127
   size: 337, 91
   orig: 337, 91
   offset: 0, 0
   index: -1
 update_light
   rotate: false
-  xy: 594, 353
+  xy: 314, 369
   size: 422, 167
   orig: 422, 167
   offset: 0, 0
@@ -504,63 +518,63 @@ update_x_press
   index: -1
 user
   rotate: false
-  xy: 1347, 220
+  xy: 1147, 223
   size: 87, 107
   orig: 87, 107
   offset: 0, 0
   index: -1
 v_dynamic
   rotate: false
-  xy: 986, 524
+  xy: 986, 540
   size: 70, 171
   orig: 70, 171
   offset: 0, 0
   index: -1
 v_kinematic
   rotate: false
-  xy: 1058, 524
+  xy: 1058, 540
   size: 70, 171
   orig: 70, 171
   offset: 0, 0
   index: -1
 v_static
   rotate: false
-  xy: 1130, 524
+  xy: 1130, 540
   size: 70, 171
   orig: 70, 171
   offset: 0, 0
   index: -1
 volume_louder
   rotate: false
-  xy: 1045, 220
+  xy: 845, 223
   size: 149, 102
   orig: 149, 102
   offset: 0, 0
   index: -1
 volume_quiet
   rotate: false
-  xy: 1196, 220
+  xy: 996, 223
   size: 149, 102
   orig: 149, 102
   offset: 0, 0
   index: -1
 yan
   rotate: false
-  xy: 1777, 220
+  xy: 1577, 223
   size: 132, 131
   orig: 132, 131
   offset: 0, 0
   index: -1
 yin
   rotate: false
-  xy: 2, 353
+  xy: 1711, 223
   size: 132, 131
   orig: 132, 131
   offset: 0, 0
   index: -1
 yin_yan_light
   rotate: false
-  xy: 254, 776
+  xy: 254, 792
   size: 251, 251
   orig: 251, 251
   offset: 0, 0

@@ -50,11 +50,12 @@ class BGPractical_JPulley(_screenBox2d: AdvancedBox2dScreen): AbstractBGPractica
     override fun hideAndToStartBody(endBlock: () -> Unit) {
         setNoneId()
         arrayOf(bDynamicCircleLeft, bDynamicCircleRight).onEachIndexed { index, bco ->
-            bco.actor?.animHide(TIME_ANIM_ALPHA_PRACTICAL_BODY)
-            bco.body?.also { b ->
-                b.setLinearVelocity(0f, 0f)
-                b.isAwake = false
-                b.setTransform(if (index == 0) startPositionDynamicBodyLeft else startPositionDynamicBodyRight, 0f)
+            bco.actor?.animHide(TIME_ANIM_ALPHA_PRACTICAL_BODY) {
+                bco.body?.also { b ->
+                    b.setLinearVelocity(0f, 0f)
+                    b.isAwake = false
+                    b.setTransform(if (index == 0) startPositionDynamicBodyLeft else startPositionDynamicBodyRight, 0f)
+                }
             }
         }
         endBlock()

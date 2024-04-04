@@ -11,6 +11,7 @@ import com.education.lbjt.game.screens.TutorialIntroductionScreen
 import com.education.lbjt.game.screens.TutorialsScreen
 import com.education.lbjt.game.screens.practicalScreen.Practical_JDistanceScreen
 import com.education.lbjt.game.screens.practicalScreen.Practical_JFrictionScreen
+import com.education.lbjt.game.screens.practicalScreen.Practical_JGearScreen
 import com.education.lbjt.game.screens.practicalScreen.Practical_JMouseScreen
 import com.education.lbjt.game.screens.practicalScreen.Practical_JPrismaticScreen
 import com.education.lbjt.game.screens.practicalScreen.Practical_JPulleyScreen
@@ -94,6 +95,7 @@ class NavigationManager(val game: LibGDXGame) {
         Practical_JFrictionScreen ::class.java.name -> Practical_JFrictionScreen(game)
         Practical_JRopeScreen     ::class.java.name -> Practical_JRopeScreen(game)
         Practical_JPulleyScreen   ::class.java.name -> Practical_JPulleyScreen(game)
+        Practical_JGearScreen     ::class.java.name -> Practical_JGearScreen(game)
 
 
 

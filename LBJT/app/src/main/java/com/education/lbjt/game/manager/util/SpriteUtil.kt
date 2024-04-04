@@ -81,6 +81,8 @@ class SpriteUtil {
           val UPDATE_X_DEF                 : TextureRegion
           val UPDATE_X_PRESS               : TextureRegion
           val TELEGRAM                     : TextureRegion
+          val RATIO_H                      : TextureRegion
+          val RATIO_V                      : TextureRegion
           // game2
           val PRACTICAL_DEGREES : TextureRegion
           val PRACTICAL_LINES   : TextureRegion
@@ -171,6 +173,8 @@ class SpriteUtil {
           override val UPDATE_X_DEF                  = getGame1Region("update_x_def")
           override val UPDATE_X_PRESS                = getGame1Region("update_x_press")
           override val TELEGRAM                      = getGame1Region("telegram")
+          override val RATIO_H                       = getGame1Region("ratio_h")
+          override val RATIO_V                       = getGame1Region("ratio_v")
           // game 2
           override val PRACTICAL_DEGREES = getGame2Region("practical_degrees")
           override val PRACTICAL_LINES   = getGame2Region("practical_lines")
