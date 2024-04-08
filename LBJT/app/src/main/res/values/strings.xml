@@ -165,6 +165,7 @@
     <string name="localAxisA" translatable="false">localAxisA:</string>
     <string name="lowerTranslation" translatable="false">lowerTranslation:</string>
     <string name="upperTranslation" translatable="false">upperTranslation:</string>
+    <string name="correctionFactor" translatable="false">correctionFactor:</string>
 
     <!--GeneralInformation-->
     <string name="geninfo_title_1">And so the… Joints</string>
@@ -1286,6 +1287,105 @@
         <item>[#d2e9cdff][@Inter_Regular]If [#FF4949][@Inter_Bold]ratio = 1[#d2e9cdff][@Inter_Regular], it means that when [#FF4949][@Inter_Bold]joint1[#d2e9cdff][@Inter_Regular] makes [#FF4949][@Inter_Bold]1 revolution[#d2e9cdff][@Inter_Regular], then [#FF4949][@Inter_Bold]joint2[#d2e9cdff][@Inter_Regular] makes [#FF4949][@Inter_Bold]1 revolutions[#d2e9cdff][@Inter_Regular].</item>
         <item>[#d2e9cdff][@Inter_Regular]If [#FF4949][@Inter_Bold]ratio = 0.5[#d2e9cdff][@Inter_Regular], it means that when [#FF4949][@Inter_Bold]joint1[#d2e9cdff][@Inter_Regular] makes [#FF4949][@Inter_Bold]1 revolution[#d2e9cdff][@Inter_Regular], then [#FF4949][@Inter_Bold]joint2[#d2e9cdff][@Inter_Regular] makes 2 times more, i.e. [#FF4949][@Inter_Bold]2 revolutions[#d2e9cdff][@Inter_Regular].</item>
         <item>[#d2e9cdff][@Inter_Regular]If [#FF4949][@Inter_Bold]ratio = 2[#d2e9cdff][@Inter_Regular], it means that when [#FF4949][@Inter_Bold]joint1[#d2e9cdff][@Inter_Regular] makes [#FF4949][@Inter_Bold]1 revolution[#d2e9cdff][@Inter_Regular], then [#FF4949][@Inter_Bold]joint2[#d2e9cdff][@Inter_Regular] makes 2 times less, i.e. [#FF4949][@Inter_Bold]0.5 revolutions[#d2e9cdff][@Inter_Regular].</item>
+    </string-array>
+
+    <!--JointMotor-->
+    <string name="jmotor_title_1">And so the… Motor Joint</string>
+    <string name="jmotor_title_2">Practice. How to create a Motor Joint?</string>
+
+    <string name="jmotor_sub_title_1">MotorJointDef settings:</string>
+
+    <string name="jmotor_text_1">[#d2e9cdff][@Inter_Medium]Motor joint — a joint designed to connect two bodies together used as a [#FF4949][@Inter_Bold]magnet[#d2e9cdff][@Inter_Medium].</string>
+    <string name="jmotor_text_2">[#d2e9cdff][@Inter_Medium]First, we need to set up the joint. For this, each joint has its own implementation of JointDef. You can read about this in the article: [#FF4949][@Inter_Bold]{TRIGGER=click}[_]General information[_]{ENDTRIGGER}[#d2e9cdff][@Inter_Medium]. And now let’s talk about the MotorJointDef.</string>
+    <string name="jmotor_text_3">[#d2e9cdff][@Inter_Medium]Our example will consist of a static circle ([#0094FF]blue[#d2e9cdff]) and a dynamic circle ([#1A932C]green[#d2e9cdff]) connected by MotorJoint.</string>
+    <string name="jmotor_text_4">[#d2e9cdff][@Inter_Medium]Create 2 bodies: a [#FF4949][@Inter_Bold]static[#d2e9cdff][@Inter_Medium] circle and a [#FF4949][@Inter_Bold]dynamic[#d2e9cdff][@Inter_Medium] circle:</string>
+    <string name="jmotor_text_5">[#d2e9cdff][@Inter_Medium]Create MotorJoint:</string>
+    <string name="jmotor_text_6">[#d2e9cdff][@Inter_Medium]Configure: [#FF4949][@Inter_Bold]maxForce[#d2e9cdff][@Inter_Medium]:</string>
+    <string name="jmotor_text_7">[#d2e9cdff][@Inter_Medium]As we can see, [#FF4949][@Inter_Bold]maxForce[#d2e9cdff][@Inter_Medium] is sufficient to return bodyB to its initial position. But it spins for a long time, to fix it, you need to configure [#FF4949][@Inter_Bold]maxTorque[#d2e9cdff][@Inter_Medium].</string>
+    <string name="jmotor_text_8">[#d2e9cdff][@Inter_Medium]Configure: [#FF4949][@Inter_Bold]maxTorque[#d2e9cdff][@Inter_Medium]:</string>
+    <string name="jmotor_text_9">[#d2e9cdff][@Inter_Medium]As you can see, the body does not immediately return to its original position, [#FF4949][@Inter_Bold]now it works as if it is attached by a spring[#d2e9cdff][@Inter_Medium], in order to configure the stiffness, so to speak, of this spring, it is necessary to configure [#FF4949][@Inter_Bold]correctionFactor[#d2e9cdff][@Inter_Medium].</string>
+    <string name="jmotor_text_10">[#d2e9cdff][@Inter_Medium]Configure: [#FF4949][@Inter_Bold]correctionFactor[#d2e9cdff][@Inter_Medium]:</string>
+    <string name="jmotor_text_11">[#FF4949][@Inter_Bold]correctionFactor[#d2e9cdff][@Inter_Medium] is set to values from 0 to 1 (default 0.3).</string>
+    <string name="jmotor_text_12">[#d2e9cdff][@Inter_Medium]Configure: [#FF4949][@Inter_Bold]linearOffset[#d2e9cdff][@Inter_Medium]:</string>
+    <string name="jmotor_text_13">[#d2e9cdff][@Inter_Medium]By default, [#FF4949][@Inter_Bold]bodyB[#d2e9cdff][@Inter_Medium] is attracted to the [#FF4949][@Inter_Bold]center of mass of bodyA[#d2e9cdff][@Inter_Medium], to change this you need to configure [#FF4949][@Inter_Bold]linearOffset[#d2e9cdff][@Inter_Medium].</string>
+    <string name="jmotor_text_14">[#d2e9cdff][@Inter_Medium]Configured in the same way as [#FF4949][@Inter_Bold]localAnchorA[#d2e9cdff][@Inter_Medium].</string>
+    <string name="jmotor_text_15">[#d2e9cdff][@Inter_Medium]Configure: [#FF4949][@Inter_Bold]angularOffset[#d2e9cdff][@Inter_Medium]:</string>
+    <string name="jmotor_text_16">[#FF4949][@Inter_Bold]angularOffset[#d2e9cdff][@Inter_Medium] — simply changes the angle of the initial position to which bodyB will return.</string>
+    <string name="jmotor_text_17">[#d2e9cdff][@Inter_Medium]To convert [#FF4949][@Inter_Bold]radians to degrees[#d2e9cdff][@Inter_Medium], we need to multiply the radians by our constant:</string>
+    <string name="jmotor_text_18">[#d2e9cdff][@Inter_Medium]That’s all, friends, the series of articles LBJT has come to an end, thank you for reading to this point, I hope it helped you understand how they work and how to use Joints Box2d in LibGDX.</string>
+    <string name="jmotor_text_19">[#d2e9cdff][@Inter_Medium]Everything will be Wonderful.</string>
+
+    <string name="jmotor_codepanel_1" translatable="false">
+        "val staticCircle      = StaticBody"
+        "\nval dynamicCircle = DynamicBody"
+    </string>
+    <string name="jmotor_codepanel_2" translatable="false">
+        "world.createJoint(MotorJointDef().apply {"
+        "\n    bodyA = staticCircle"
+        "\n    bodyB = dynamicCircle"
+        "\n    collideConnected = false"
+        "\n}"
+    </string>
+    <string name="jmotor_codepanel_3" translatable="false">
+        "world.createJoint(MotorJointDef().apply {"
+        "\n    ..."
+        "\n    maxForce = 300f * bodyB.mass"
+        "\n}"
+    </string>
+    <string name="jmotor_codepanel_4" translatable="false">
+        "world.createJoint(MotorJointDef().apply {"
+        "\n    ..."
+        "\n    maxTorque = 5_000f"
+        "\n}"
+    </string>
+    <string name="jmotor_codepanel_5" translatable="false">
+        "world.createJoint(MotorJointDef().apply {"
+        "\n    ..."
+        "\n    correctionFactor = 0.3f"
+        "\n}"
+    </string>
+    <string name="jmotor_codepanel_6" translatable="false">
+        "world.createJoint(MotorJointDef().apply {"
+        "\n    ..."
+        "\n    linearOffset.set(5f, 5f)"
+        "\n}"
+    </string>
+    <string name="jmotor_codepanel_7" translatable="false">
+        "const val PI: Double    = 3.141592653589793"
+        "\nconst val DEGTORAD = (PI / 180f).toFloat()"
+        "\n"
+        "\nworld.createJoint(MotorJointDef().apply {"
+        "\n    ..."
+        "\n    angularOffset = 90f * DEGTORAD"
+        "\n}"
+    </string>
+    <string name="jmotor_codepanel_8" translatable="false">
+        "const val PI: Double   = 3.141592653589793"
+        "\nconst val RADTODEG = (180f / PI).toFloat()"
+        "\n"
+        "\nval degrees = body.angle * RADTODEG"
+    </string>
+
+    <string-array name="jmotor_arr_1">
+        <item>[#d2e9cdff][@Inter_Regular]linearOffset — similar to a localAnchorA, bodyB will be attracted to it.</item>
+        <item>[#d2e9cdff][@Inter_Regular]angularOffset — similar to a referenceAngle, [#FF4949][@Inter_Bold]initial angle[#d2e9cdff][@Inter_Regular] between bodyA and bodyB, (default 0 | measured in [#FF4949][@Inter_Bold]radians[#d2e9cdff][@Inter_Regular]).</item>
+        <item>[#d2e9cdff][@Inter_Regular]maxForce — the force required to [#FF4949][@Inter_Bold]attract[#d2e9cdff][@Inter_Regular] bodyB. Usually expressed as (multiplier * mass * gravity) = (500 * bodyB.mass * world.gravity ). I personally usually do this for tests (500 * bodyB.mass).</item>
+        <item>[#d2e9cdff][@Inter_Regular]maxTorque — [#FF4949][@Inter_Bold]torque[#d2e9cdff][@Inter_Regular] is required to return to the original position.</item>
+        <item>[#d2e9cdff][@Inter_Regular]correctionFactor — the value of which depends on how quickly bodyB will return to its [#FF4949][@Inter_Bold]initial position[#d2e9cdff][@Inter_Regular].</item>
+    </string-array>
+    <string-array name="jmotor_arr_2">
+        <item>[#d2e9cdff][@Inter_Regular]If the force is very small, bodyB will not be attracted.</item>
+        <item>[#d2e9cdff][@Inter_Regular]If the force is greater than the force indicated in MouseJoint, then you will not be able to move the bodyB from its place.</item>
+    </string-array>
+    <string-array name="jmotor_arr_3">
+        <item>[#d2e9cdff][@Inter_Regular]If the torque is very small, bodyB will not return to original angle.</item>
+        <item>[#d2e9cdff][@Inter_Regular]If the torque is greater than the force indicated in MouseJoint, then you won’t be able to change the angle of bodyB.</item>
+    </string-array>
+    <string-array name="jmotor_arr_4">
+        <item>[#FF4949][@Inter_Bold]0[#d2e9cdff][@Inter_Regular] — is not attracted to the initial position at all.</item>
+        <item>[#FF4949][@Inter_Bold]1[#d2e9cdff][@Inter_Regular] — it is attracted to the initial position for a long time like a soft spring.</item>
+        <item>[#FF4949][@Inter_Bold]&lt; 0[#d2e9cdff][@Inter_Regular] — is infinitely repelled from the initial position as if the same side of the magnet.</item>
+        <item>[#FF4949][@Inter_Bold]&gt; 1[#d2e9cdff][@Inter_Regular] — for a very long time it is attracted to the initial position like a very soft spring.</item>
     </string-array>
 
 </resources>

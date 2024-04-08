@@ -33,6 +33,7 @@ import com.education.lbjt.game.screens.tutorialsScreen.JWheelScreen
 import com.education.lbjt.game.screens.tutorialsScreen.WillBeLaterScreen
 import com.education.lbjt.game.utils.advanced.AdvancedScreen
 import com.education.lbjt.game.utils.runGDX
+import com.education.lbjt.game.screens.tutorialsScreen.JMotorScreen
 
 class NavigationManager(val game: LibGDXGame) {
 
@@ -83,6 +84,7 @@ class NavigationManager(val game: LibGDXGame) {
         JRopeScreen             ::class.java.name -> JRopeScreen(game)
         JPulleyScreen           ::class.java.name -> JPulleyScreen(game)
         JGearScreen             ::class.java.name -> JGearScreen(game)
+        JMotorScreen            ::class.java.name -> JMotorScreen(game)
 
         WillBeLaterScreen::class.java.name -> WillBeLaterScreen(game)
         // Practical Screens

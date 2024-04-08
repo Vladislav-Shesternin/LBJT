@@ -505,5 +505,51 @@ class SpriteUtil {
           val I1 = JGear.I1.data.texture
      }
 
+     class JointMotor: TutorialsAssets {
+          private fun getRegion(name: String, atlasData: SpriteManager.AtlasData): TextureRegion = atlasData.atlas.findRegion(name)
+
+          private val animVideo_1_0 = List<TextureRegion>(78) { getRegion("video ${it.inc()}", SpriteManager.EnumAtlas_JointMotor.ANIM_VIDEO_1_0.data) }
+          private val animVideo_1_1 = List<TextureRegion>(78) { getRegion("video ${it.inc()+78}", SpriteManager.EnumAtlas_JointMotor.ANIM_VIDEO_1_1.data) }
+          private val animVideo_1_2 = List<TextureRegion>(78) { getRegion("video ${it.inc()+156}", SpriteManager.EnumAtlas_JointMotor.ANIM_VIDEO_1_2.data) }
+          private val animVideo_1_3 = List<TextureRegion>(55) { getRegion("video ${it.inc()+234}", SpriteManager.EnumAtlas_JointMotor.ANIM_VIDEO_1_3.data) }
+
+          private val animVideo_2_0 = List<TextureRegion>(78) { getRegion("video ${it.inc()}", SpriteManager.EnumAtlas_JointMotor.ANIM_VIDEO_2_0.data) }
+          private val animVideo_2_1 = List<TextureRegion>(25) { getRegion("video ${it.inc()+78}", SpriteManager.EnumAtlas_JointMotor.ANIM_VIDEO_2_1.data) }
+
+          private val animVideo_3_0 = List<TextureRegion>(78) { getRegion("video ${it.inc()}", SpriteManager.EnumAtlas_JointMotor.ANIM_VIDEO_3_0.data) }
+          private val animVideo_3_1 = List<TextureRegion>(78) { getRegion("video ${it.inc()+78}", SpriteManager.EnumAtlas_JointMotor.ANIM_VIDEO_3_1.data) }
+          private val animVideo_3_2 = List<TextureRegion>(6) { getRegion("video ${it.inc()+156}", SpriteManager.EnumAtlas_JointMotor.ANIM_VIDEO_3_2.data) }
+
+          private val animVideo_4_0 = List<TextureRegion>(78) { getRegion("video ${it.inc()}", SpriteManager.EnumAtlas_JointMotor.ANIM_VIDEO_4_0.data) }
+          private val animVideo_4_1 = List<TextureRegion>(54) { getRegion("video ${it.inc()+78}", SpriteManager.EnumAtlas_JointMotor.ANIM_VIDEO_4_1.data) }
+
+          private val animVideo_5_0 = List<TextureRegion>(78) { getRegion("video ${it.inc()}", SpriteManager.EnumAtlas_JointMotor.ANIM_VIDEO_5_0.data) }
+          private val animVideo_5_1 = List<TextureRegion>(25) { getRegion("video ${it.inc()+78}", SpriteManager.EnumAtlas_JointMotor.ANIM_VIDEO_5_1.data) }
+
+
+          private val mem_1_1 = List<TextureRegion>(28) { getRegion("mem ${it.inc()}", SpriteManager.EnumAtlas_JointMotor.MEM_1_1.data) }
+          private val mem_1_2 = List<TextureRegion>(28) { getRegion("mem ${it.inc()+28}", SpriteManager.EnumAtlas_JointMotor.MEM_1_2.data) }
+          private val mem_1_3 = List<TextureRegion>(28) { getRegion("mem ${it.inc()+56}", SpriteManager.EnumAtlas_JointMotor.MEM_1_3.data) }
+          private val mem_1_4 = List<TextureRegion>(28) { getRegion("mem ${it.inc()+84}", SpriteManager.EnumAtlas_JointMotor.MEM_1_4.data) }
+          private val mem_1_5 = List<TextureRegion>(28) { getRegion("mem ${it.inc()+112}", SpriteManager.EnumAtlas_JointMotor.MEM_1_5.data) }
+          private val mem_1_6 = List<TextureRegion>(23) { getRegion("mem ${it.inc()+140}", SpriteManager.EnumAtlas_JointMotor.MEM_1_6.data) }
+
+          private val mem_2_1 = List<TextureRegion>(28) { getRegion("mem ${it.inc()}", SpriteManager.EnumAtlas_JointMotor.MEM_2_1.data) }
+          private val mem_2_2 = List<TextureRegion>(28) { getRegion("mem ${it.inc()+28}", SpriteManager.EnumAtlas_JointMotor.MEM_2_2.data) }
+          private val mem_2_3 = List<TextureRegion>(28) { getRegion("mem ${it.inc()+56}", SpriteManager.EnumAtlas_JointMotor.MEM_2_3.data) }
+          private val mem_2_4 = List<TextureRegion>(28) { getRegion("mem ${it.inc()+84}", SpriteManager.EnumAtlas_JointMotor.MEM_2_4.data) }
+          private val mem_2_5 = List<TextureRegion>(15) { getRegion("mem ${it.inc()+112}", SpriteManager.EnumAtlas_JointMotor.MEM_2_5.data) }
+
+          val animVideo_1 = animVideo_1_0+animVideo_1_1+animVideo_1_2+animVideo_1_3
+          val animVideo_2 = animVideo_2_0+animVideo_2_1
+          val animVideo_3 = animVideo_3_0+animVideo_3_1+animVideo_3_2
+          val animVideo_4 = animVideo_4_0+animVideo_4_1
+          val animVideo_5 = animVideo_5_0+animVideo_5_1
+
+          val mem1 = mem_1_1+mem_1_2+mem_1_3+mem_1_4+mem_1_5+mem_1_6
+          val mem2 = mem_2_1+mem_2_2+mem_2_3+mem_2_4+mem_2_5
+     }
+
+
      interface TutorialsAssets
 }

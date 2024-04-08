@@ -18,7 +18,7 @@ class WorldUtil: Disposable {
         const val GRAVITY_Y = -9.8f
         private const val TIME_STEP: Float = 1f / 60f
 
-        var isDebug = true
+        var isDebug = false
     }
 
     private var accumulatorTime = 0f

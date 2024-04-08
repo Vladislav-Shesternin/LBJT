@@ -285,6 +285,42 @@ class SpriteManager(var assetManager: AssetManager) {
         I1(TextureData("textures/tutorials/joint_gear/i1.png")),
     }
 
+    enum class EnumAtlas_JointMotor(val data: AtlasData) {
+        ANIM_VIDEO_1_0(AtlasData("atlas/anim/tutorials/joint_motor/video_1/video_1_0.atlas")),
+        ANIM_VIDEO_1_1(AtlasData("atlas/anim/tutorials/joint_motor/video_1/video_1_1.atlas")),
+        ANIM_VIDEO_1_2(AtlasData("atlas/anim/tutorials/joint_motor/video_1/video_1_2.atlas")),
+        ANIM_VIDEO_1_3(AtlasData("atlas/anim/tutorials/joint_motor/video_1/video_1_3.atlas")),
+
+        ANIM_VIDEO_2_0(AtlasData("atlas/anim/tutorials/joint_motor/video_2/video_2_0.atlas")),
+        ANIM_VIDEO_2_1(AtlasData("atlas/anim/tutorials/joint_motor/video_2/video_2_1.atlas")),
+
+        ANIM_VIDEO_3_0(AtlasData("atlas/anim/tutorials/joint_motor/video_3/video_3_0.atlas")),
+        ANIM_VIDEO_3_1(AtlasData("atlas/anim/tutorials/joint_motor/video_3/video_3_1.atlas")),
+        ANIM_VIDEO_3_2(AtlasData("atlas/anim/tutorials/joint_motor/video_3/video_3_2.atlas")),
+
+        ANIM_VIDEO_4_0(AtlasData("atlas/anim/tutorials/joint_motor/video_4/video_4_0.atlas")),
+        ANIM_VIDEO_4_1(AtlasData("atlas/anim/tutorials/joint_motor/video_4/video_4_1.atlas")),
+
+        ANIM_VIDEO_5_0(AtlasData("atlas/anim/tutorials/joint_motor/video_5/video_5_0.atlas")),
+        ANIM_VIDEO_5_1(AtlasData("atlas/anim/tutorials/joint_motor/video_5/video_5_1.atlas")),
+
+        MEM_1_1(AtlasData("atlas/anim/tutorials/joint_motor/mem/mem_1.atlas")),
+        MEM_1_2(AtlasData("atlas/anim/tutorials/joint_motor/mem/mem_2.atlas")),
+        MEM_1_3(AtlasData("atlas/anim/tutorials/joint_motor/mem/mem_3.atlas")),
+        MEM_1_4(AtlasData("atlas/anim/tutorials/joint_motor/mem/mem_4.atlas")),
+        MEM_1_5(AtlasData("atlas/anim/tutorials/joint_motor/mem/mem_5.atlas")),
+        MEM_1_6(AtlasData("atlas/anim/tutorials/joint_motor/mem/mem_6.atlas")),
+
+        MEM_2_1(AtlasData("atlas/anim/tutorials/joint_motor/mem_1/mem_1.atlas")),
+        MEM_2_2(AtlasData("atlas/anim/tutorials/joint_motor/mem_1/mem_2.atlas")),
+        MEM_2_3(AtlasData("atlas/anim/tutorials/joint_motor/mem_1/mem_3.atlas")),
+        MEM_2_4(AtlasData("atlas/anim/tutorials/joint_motor/mem_1/mem_4.atlas")),
+        MEM_2_5(AtlasData("atlas/anim/tutorials/joint_motor/mem_1/mem_5.atlas")),
+    }
+    enum class EnumTexture_JointMotor(val data: TextureData) {
+//        I1(TextureData("textures/tutorials/joint_gear/i1.png")),
+    }
+
     data class AtlasData(val path: String) {
         lateinit var atlas: TextureAtlas
     }

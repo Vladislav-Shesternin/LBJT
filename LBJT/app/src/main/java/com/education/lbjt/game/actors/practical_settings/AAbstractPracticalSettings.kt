@@ -272,7 +272,7 @@ abstract class AAbstractPracticalSettings(final override val screen: AdvancedScr
         var tmpValue = 0f
 
         progress.apply {
-            setProgressPercent(currentValue / 100f)
+            setProgressPercent(currentValue / ONE_PERCENT_0_10k)
             progressPercentFlow.collect { progress ->
                 runGDX {
                     tmpValue = progress * ONE_PERCENT_0_10k
@@ -314,7 +314,7 @@ abstract class AAbstractPracticalSettings(final override val screen: AdvancedScr
         var tmpValue = 0f
 
         progress.apply {
-            setProgressPercent(currentValue / 100f)
+            setProgressPercent(currentValue / ONE_PERCENT_0_1k)
             progressPercentFlow.collect { progress ->
                 runGDX {
                     tmpValue = progress * ONE_PERCENT_0_1k

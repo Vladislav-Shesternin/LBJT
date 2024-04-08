@@ -26,6 +26,7 @@ import com.education.lbjt.game.utils.actor.setOnTouchListener
 import com.education.lbjt.game.utils.advanced.AdvancedMouseScreen
 import com.education.lbjt.game.utils.advanced.AdvancedStage
 import com.education.lbjt.game.utils.region
+import com.education.lbjt.game.screens.tutorialsScreen.JMotorScreen
 
 class TutorialsScreen(override val game: LibGDXGame): AdvancedMouseScreen(game) {
 
@@ -92,7 +93,7 @@ class TutorialsScreen(override val game: LibGDXGame): AdvancedMouseScreen(game) 
             JRopeScreen::class.java.name,
             JPulleyScreen::class.java.name,
             JGearScreen::class.java.name,
-            WillBeLaterScreen::class.java.name,
+            JMotorScreen::class.java.name,
         )
 
         bgLift.bgRegularBtns.bRegularBtnList.onEachIndexed { index, bRegularBtn ->

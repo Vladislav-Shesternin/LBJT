@@ -10,6 +10,7 @@ import com.education.lbjt.game.actors.scroll.tutorial.AAbstractTutorialScrollPan
 import com.education.lbjt.game.actors.scroll.tutorial.actors.AAbstractList
 import com.education.lbjt.game.manager.util.SpriteUtil
 import com.education.lbjt.game.screens.practicalScreen.Practical_JFrictionScreen
+import com.education.lbjt.game.screens.practicalScreen.Practical_JGearScreen
 import com.education.lbjt.game.screens.practicalScreen.Practical_JPulleyScreen
 import com.education.lbjt.game.screens.tutorialsScreen.GeneralInformationScreen
 import com.education.lbjt.game.screens.tutorialsScreen.JDistanceScreen
@@ -117,7 +118,7 @@ class AScrollPanel_JGear(
         addSpace(Space._25)
         addTypingLabel(R.string.PS_Vel_daN, LabelFont.Inter_Black_30)
         addSpace(Space._80)
-        addBtnPanel(Practical_JPulleyScreen::class.java.name)
+        addBtnPanel(Practical_JGearScreen::class.java.name)
         addSpace(Space._80)
     }
 

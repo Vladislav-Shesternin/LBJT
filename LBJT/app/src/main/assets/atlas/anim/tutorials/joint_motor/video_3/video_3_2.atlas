@@ -1,0 +1,47 @@
+video_3_2.png
+size: 322, 895
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+video 157
+  rotate: false
+  xy: 1, 1
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video 158
+  rotate: false
+  xy: 1, 150
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video 159
+  rotate: false
+  xy: 1, 299
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video 160
+  rotate: false
+  xy: 1, 448
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video 161
+  rotate: false
+  xy: 1, 597
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1
+video 162
+  rotate: false
+  xy: 1, 746
+  size: 320, 148
+  orig: 320, 148
+  offset: 0, 0
+  index: -1

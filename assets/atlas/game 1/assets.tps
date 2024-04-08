@@ -717,6 +717,36 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">ratio_h.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>20,18,41,37</rect>
+                <key>scale9Paddings</key>
+                <rect>20,18,41,37</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">ratio_v.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>25,19,49,37</rect>
+                <key>scale9Paddings</key>
+                <rect>25,19,49,37</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">regular_btn_def.png</key>
             <key type="filename">regular_btn_disable.png</key>
             <key type="filename">regular_btn_press.png</key>
