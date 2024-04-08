@@ -31,9 +31,11 @@ import kotlinx.coroutines.launch
 import kotlin.math.roundToInt
 
 class SettingsScreen(override val game: LibGDXGame): AdvancedMouseScreen(game) {
-    
-    var percentVolumeMusic = -1
-    var percentVolumeSound = -1
+
+    companion object {
+        var percentVolumeMusic = -1
+        var percentVolumeSound = -1
+    }
 
     private val parameter = FontParameter()
 
